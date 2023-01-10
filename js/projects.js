@@ -3,7 +3,7 @@ let projects=
     {
         name:"Swagshop",
         tools:"HTML, CSS & JS",
-        image:"/images/projects/websites/swagshop.png",
+        image:"images/projects/websites/swagshop.png",
         url:"https://aklu-10.github.io/SwagShop-WebDesign/",
         type:"websites"
     },
