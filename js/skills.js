@@ -2,49 +2,49 @@ let skills=[
     {
         id:1,
         name:"html",
-        image:"/images/skills/html.png",
+        image:"images/skills/html.png",
         xp:"Intermediate"
     },
     {
         id:2,
         name:"css",
-        image:"/images/skills/css.png",
+        image:"images/skills/css.png",
         xp:"Intermediate"
     },
     {
         id:3,
         name:"javascript",
-        image:"/images/skills/javascript.png",
+        image:"images/skills/javascript.png",
         xp:"Intermediate"
     },
     {
         id:4,
         name:"bootstrap",
-        image:"/images/skills/bootstrap.png",
+        image:"images/skills/bootstrap.png",
         xp:"Intermediate"
     },
     {
         id:5,
         name:"tailwindcss",
-        image:"/images/skills/tailwindcss.png",
+        image:"images/skills/tailwindcss.png",
         xp:"Beginner"
     },
     {
         id:6,
         name:"sass",
-        image:"/images/skills/sass.png",
+        image:"images/skills/sass.png",
         xp:"Beginner"
     },
     {
         id:7,
         name:"typescript",
-        image:"/images/skills/typescript.png",
+        image:"images/skills/typescript.png",
         xp:"Beginner"
     },
     {
         id:8,
         name:"react",
-        image:"/images/skills/react.png",
+        image:"images/skills/react.png",
         xp:"Beginner"
     }   
 ]
