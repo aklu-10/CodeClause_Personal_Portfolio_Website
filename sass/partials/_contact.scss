@@ -1,9 +1,7 @@
 
 .contact
 {
-    
-    height: 100vh;
-    min-height: 500px;
+    height: max-content;
     position: relative;
         
     &:after
@@ -16,7 +14,7 @@
 
     .form_container
     {
-        min-height: 100vh;
+        height: max-content !important;
         @include Flex(center,center);
         form    
         {
