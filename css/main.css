@@ -60,6 +60,16 @@
     transform: translateX(0px) rotate(0);
   }
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 header {
   min-width: 100%;
   height: 10vh;
@@ -133,7 +143,7 @@ header #hamMenu {
   padding-right: 5px;
 }
 .hero .content h1 span {
-  font-weight: 300;
+  font-weight: 500;
   color: #522793;
   font-size: 3rem;
   padding-right: 5px;
@@ -148,6 +158,9 @@ header #hamMenu {
   text-align: center;
   position: relative;
   overflow: hidden;
+  opacity: 0;
+  animation: fadeIn 1s linear forwards;
+  animation-delay: 1s;
 }
 .hero .content_image img {
   width: 500px;
@@ -167,6 +180,7 @@ header #hamMenu {
   left: 0;
   right: none;
   z-index: -1;
+  animation: slideIn 1s linear 1;
 }
 .hero .wave img {
   width: 100%;
@@ -287,6 +301,8 @@ header #hamMenu {
   height: 350px;
   position: relative;
   overflow: hidden;
+  transition: 0.2s ease;
+  animation: fadeIn 0.4s linear 1;
 }
 .projects .projects_container .project_item:hover .project_hover_effect {
   display: flex;
@@ -388,7 +404,7 @@ header #hamMenu {
 }
 
 .contact {
-  height: 100vh;
+  height: max-content;
   position: relative;
 }
 .contact:after {
@@ -403,7 +419,7 @@ header #hamMenu {
   background-color: #522793;
 }
 .contact .form_container {
-  min-height: 100vh;
+  height: max-content !important;
   display: flex;
   justify-content: center;
   align-items: center;

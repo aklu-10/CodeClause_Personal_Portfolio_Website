@@ -36,11 +36,17 @@ let skills=[
         xp:"Beginner"
     },
     {
-        id:8,
+        id:7,
         name:"typescript",
         image:"/images/skills/typescript.png",
         xp:"Beginner"
-    }
+    },
+    {
+        id:8,
+        name:"react",
+        image:"/images/skills/react.png",
+        xp:"Beginner"
+    }   
 ]
 
 export default skills;

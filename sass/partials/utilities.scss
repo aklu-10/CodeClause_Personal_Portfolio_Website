@@ -88,8 +88,6 @@ $bg-secondary:#6b34b3;
     }    
 }
 
-
-
 @keyframes slideIn{
     0%
     {
@@ -101,5 +99,19 @@ $bg-secondary:#6b34b3;
         transform: translateX(0px) rotate(0);
     }
     
+}
+
+@keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+        transform: translateY(50px);
+    }   
+    to
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    } 
 }
 

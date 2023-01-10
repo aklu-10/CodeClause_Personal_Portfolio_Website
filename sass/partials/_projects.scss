@@ -72,6 +72,10 @@
             @include Dimensions(400px,"",350px,"");
             position: relative;
             overflow: hidden;
+            transition:.2s ease;
+            animation:fadeIn .4s linear 1;
+
+          
             &:hover .project_hover_effect
             {
                 display: flex;

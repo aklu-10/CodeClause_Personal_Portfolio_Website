@@ -185,7 +185,7 @@ let projectContainer=document.querySelector(".projects_container");
 
 projects.map((project)=>
 {
-    let content=`<div class="project_item ${project.type}" data-aos="fade-up"><img src=${project.image} alt=${project.name + project.type}> <div class="project_hover_effect"> <p>${project.type}</p> <h2>${project.name}</h2> <div style="width:100%;display:flex;justify-content:space-between; align-items: flex-end;"> <a href=${project.url}><button class="view">View</button></a><em style="font-weight:200; width: 50%;margin-left: 2px;text-align: right;" >${project.tools}</em></div></div></div>`;
+    let content=`<div class="project_item ${project.type}"><img src=${project.image} alt=${project.name + project.type}> <div class="project_hover_effect"> <p>${project.type}</p> <h2>${project.name}</h2> <div style="width:100%;display:flex;justify-content:space-between; align-items: flex-end;"> <a href=${project.url}><button class="view">View</button></a><em style="font-weight:200; width: 50%;margin-left: 2px;text-align: right;" >${project.tools}</em></div></div></div>`;
 
     projectContainer.insertAdjacentHTML("beforeend",content);
 
@@ -273,7 +273,7 @@ function skillContent(skill)
     let sname=skill.name;
     let sxp=skill.xp;
 
-    let skill_item=`<div class="skill_item" data-aos="fade-up">
+    let skill_item=`<div class="skill_item" title=${sname}>
                         <div class="skill_img">
                             <img src=${simage} alt=${sname}+"_image">
                         </div>
@@ -284,7 +284,7 @@ function skillContent(skill)
                         </div>
                     </div>`;
 
-    let skill_item_rev=`<div class="skill_item rev_sk" data-aos="fade-up">
+    let skill_item_rev=`<div class="skill_item rev_sk" title=${sname}>
                             <div class="xp">
                                 <button class="btn">${sxp}</button>
                                 <span class="line rev"></span>
@@ -295,5 +295,4 @@ function skillContent(skill)
                     </div>`;
 
     return skill.id%2==0?skill_item_rev:skill_item;
-
 }

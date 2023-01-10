@@ -13,7 +13,7 @@
 
             span
             {
-                font-weight: 300;
+                font-weight: 500;
                 color:$bg-primary;
                 font-size: 3rem;
                 padding-right: 5px;
@@ -36,6 +36,9 @@
         text-align: center;
         position: relative;
         overflow: hidden;
+        opacity: 0;
+        animation: fadeIn 1s linear forwards;
+        animation-delay: 1s;
         img
         {
             width:500px;
@@ -48,7 +51,7 @@
     {
         width: 100%;
         @include pos(absolute,-1,none,-17px,0,none);
-
+        animation: slideIn 1s linear 1;
         img
         {
             width: 100%;
