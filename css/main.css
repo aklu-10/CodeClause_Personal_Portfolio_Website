@@ -105,8 +105,9 @@ header .menu_container .menu {
   align-items: center;
 }
 header .menu_container .menu a {
-  font-weight: 300;
+  font-weight: lighter;
   margin-left: 70px;
+  font-size: 0.92rem;
   text-align: right;
   color: #360087;
   width: 60px;
@@ -135,6 +136,7 @@ header #hamMenu {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  overflow: hidden;
 }
 .hero .content {
   width: 30%;
@@ -152,7 +154,7 @@ header #hamMenu {
 }
 .hero .content a {
   display: inline-block;
-  box-shadow: none;
+  box-shadow: 0 0 4px black;
 }
 .hero .content_image {
   min-width: 50%;
@@ -182,10 +184,12 @@ header #hamMenu {
   left: 0;
   right: none;
   z-index: -1;
-  animation: slideIn 1s linear 1;
+  animation: fadeIn 1s linear forwards;
+  animation-direction: alternate;
 }
 .hero .wave img {
   width: 100%;
+  transform: rotateY(180deg);
 }
 .hero .social_links {
   position: absolute;

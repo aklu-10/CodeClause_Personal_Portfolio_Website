@@ -25,8 +25,9 @@ header
         {
             a
             {
-                font-weight: 300;
+                font-weight:lighter;
                 margin-left:70px;
+                font-size: .92rem;
                 text-align: right;
                 color:$bg-primary;
                 @include Dimensions(60px);
