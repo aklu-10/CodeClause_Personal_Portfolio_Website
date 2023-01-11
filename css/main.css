@@ -414,6 +414,7 @@ header #hamMenu {
 
 .contact {
   height: max-content;
+  min-height: 500px;
   position: relative;
 }
 .contact:after {
