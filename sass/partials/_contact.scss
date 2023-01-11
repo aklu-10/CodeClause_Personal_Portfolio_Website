@@ -29,7 +29,7 @@
             label
             {
                 @include pos(absolute,-1,10px,none,10px,none);
-                color:rgba(255,255,255,.4);
+                color:rgba(255,255,255,.5);
                 background-color: $bg-primary;
                 border:1px solid $bg-primary;
                 transition: .1s ease;
@@ -52,7 +52,9 @@
                 &:focus + label
                 {
                     top:-15px;
+                    left:0;
                     z-index: 1;
+                    transform: scale(.75)
                 }
 
             }
@@ -85,6 +87,7 @@
             border:none;
             color:$bg-primary;
             font-weight: 600;
+            border-radius: 50px;
         }
     }
 

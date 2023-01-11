@@ -25,12 +25,14 @@
         }
     }
 
-    .btn
+    a
     {
-        margin-left: 50%;
+        display: inline-block;
         width: max-content;
-        transform: translateX(-50%);
+        margin-left: 50%;
+        transform: translate(-50%,0);
+        color:white;
     }
-
+       
 }
 

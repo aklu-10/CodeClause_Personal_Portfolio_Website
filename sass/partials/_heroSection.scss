@@ -9,11 +9,11 @@
         h1
         {
             font-weight: 300;
-            padding-right:5px;
+            padding-right:5px;  
 
             span
             {
-                font-weight: 500;
+                font-weight: 300;
                 color:$bg-primary;
                 font-size: 3rem;
                 padding-right: 5px;
@@ -25,8 +25,9 @@
         a
         {
             display: inline-block;
+            box-shadow: none;
         }
-
+        
 
     }
 
@@ -55,13 +56,12 @@
         img
         {
             width: 100%;
-            transform: rotateY(180deg);
         }
     }
 
     .social_links
     {
-        @include pos(absolute,1,none,1%,5px,none);
+        @include pos(absolute,1,none,1%,none,5px);
         @include Flex(space-around,center);
         
         i

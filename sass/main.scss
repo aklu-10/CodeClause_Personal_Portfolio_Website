@@ -1,4 +1,4 @@
-// @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 @import './partials/utilities.scss';
 @import './partials/navbar.scss';
@@ -24,7 +24,7 @@ html
 
 ::-webkit-scrollbar-thumb
 {
-    background-color: $bg-secondary;
+    background-color: $bg-primary;
 }
 
 a

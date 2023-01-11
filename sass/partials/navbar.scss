@@ -4,7 +4,7 @@ header
     @include Flex(space-between, center);
     @include pos(fixed,15);
     padding: 0 40px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba($color: #fff, $alpha: .4);
     backdrop-filter: blur(10px);
 
     .logo
@@ -33,7 +33,7 @@ header
 
                 &:hover
                 {
-                    color:black;
+                    color:$bg-primary;
                     font-weight: 400;
                 }
             }
