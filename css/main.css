@@ -417,8 +417,6 @@ header #hamMenu {
 }
 
 .contact {
-  height: max-content;
-  min-height: 500px;
   position: relative;
 }
 .contact:after {
@@ -476,7 +474,7 @@ header #hamMenu {
 }
 .contact .form_container .form_item textarea {
   resize: none;
-  height: 30vh;
+  height: 250px;
 }
 .contact .form_container .form_img {
   width: 40%;
