@@ -3,7 +3,7 @@ let projects=
     {
         name:"Music Website",
         tools:"Reactjs",
-        image:"",
+        image:"images/projects/websites/react_music_website.png",
         url:"https://react-music-website.netlify.app/",
         type:"websites"
     },
