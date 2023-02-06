@@ -1,7 +1,7 @@
 let projects=
 [
     {
-        name:"Music Website",
+        name:"MusicWebsite",
         tools:"Reactjs",
         image:"images/projects/websites/react_music_website.png",
         url:"https://react-music-website.netlify.app/",
