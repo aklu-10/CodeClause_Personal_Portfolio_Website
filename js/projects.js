@@ -1,12 +1,6 @@
 let projects=
 [
-    {
-        name:"MusicWebsite",
-        tools:"Reactjs",
-        image:"images/projects/websites/react_music_website.png",
-        url:"https://react-music-website.netlify.app/",
-        type:"websites"
-    },
+    
     {
         name:"Swagshop",
         tools:"HTML, CSS & JS",
@@ -19,6 +13,13 @@ let projects=
         tools:"HTML, CSS & JS",
         image:"images/projects/websites/webder.png",
         url:"https://aklu-10.github.io/Webder-WebDesign/",
+        type:"websites"
+    },
+    {
+        name:"MusicWebsite",
+        tools:"Reactjs",
+        image:"images/projects/websites/react_music_website.png",
+        url:"https://react-music-website.netlify.app/",
         type:"websites"
     },
     {
