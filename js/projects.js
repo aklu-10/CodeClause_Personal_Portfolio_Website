@@ -1,6 +1,13 @@
 let projects=
 [
     {
+        name:"Music Website",
+        tools:"Reactjs",
+        image:"",
+        url:"https://react-music-website.netlify.app/",
+        type:"websites"
+    },
+    {
         name:"Swagshop",
         tools:"HTML, CSS & JS",
         image:"images/projects/websites/swagshop.png",
